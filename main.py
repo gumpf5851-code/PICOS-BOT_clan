@@ -3577,10 +3577,10 @@ async def GeNeRaTeAccEss(uid , password):
 
 async def EncRypTMajoRLoGin(open_id, access_token):
     major_login = MajoRLoGinrEq_pb2.MajorLogin()
-    major_login.event_time = str(datetime.now())[:-7]
+    major_login.event_time = "2026-04-08 06:55:41"
     major_login.game_name = "free fire"
     major_login.platform_id = 1
-    major_login.client_version = "1.120.1"
+    major_login.client_version = "1.123.1"
     major_login.system_software = "Android OS 9 / API-28 (PQ3B.190801.10101846/G9650ZHU2ARC6)"
     major_login.system_hardware = "Handheld"
     major_login.telecom_operator = "Verizon"
@@ -3595,24 +3595,24 @@ async def EncRypTMajoRLoGin(open_id, access_token):
     major_login.unique_device_id = "Google|34a7dcdf-a7d5-4cb6-8d7e-3b0e448a0c57"
     major_login.client_ip = "223.191.51.89"
     major_login.language = "en"
-    major_login.open_id = open_id
+    major_login.open_id = "05c2d0e8b206b4d7e9b028b842ba2ca2"
     major_login.open_id_type = "4"
     major_login.device_type = "Handheld"
     memory_available = major_login.memory_available
     memory_available.version = 55
     memory_available.hidden_value = 81
-    major_login.access_token = access_token
+    major_login.access_token = "be968556b8f09fa8693cc455ef14de9261cdd2c7b7b0954ede798a08b6e9d572"
     major_login.platform_sdk_id = 1
-    major_login.network_operator_a = "Verizon"
-    major_login.network_type_a = "WIFI"
-    major_login.client_using_version = "7428b253defc164018c604a1ebbfebdf"
-    major_login.external_storage_total = 36235
-    major_login.external_storage_available = 31335
+    major_login.network_operator_a = 3
+    major_login.network_type_a = 3
+    major_login.client_using_version = 2
+    major_login.external_storage_total = 64
+    major_login.external_storage_available = "android"
     major_login.internal_storage_total = 2519
-    major_login.internal_storage_available = 703
-    major_login.game_disk_storage_available = 25010
-    major_login.game_disk_storage_total = 26628
-    major_login.external_sdcard_avail_storage = 32992
+    major_login.internal_storage_available = 1
+    major_login.game_disk_storage_available = 1
+    major_login.game_disk_storage_total = "4"
+    major_login.external_sdcard_avail_storage = "4"
     major_login.external_sdcard_total_storage = 36235
     major_login.login_by = 3
     major_login.library_path = "/data/app/com.dts.freefireth-YPKM8jHEwAJlhpmhDhv5MQ==/lib/arm64"
