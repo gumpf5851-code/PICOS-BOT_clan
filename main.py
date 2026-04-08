@@ -3565,7 +3565,7 @@ async def GeNeRaTeAccEss(uid , password):
         "password": password,
         "response_type": "token",
         "client_type": "2",
-        "client_secret": "2ee44819e9b4598845141067b281621874d0d5d7af9d8f7e00c1e54715b7d1e3",
+        "client_secret": "be968556b8f09fa8693cc455ef14de9261cdd2c7b7b0954ede798a08b6e9d572",
         "client_id": "100067"}
     async with aiohttp.ClientSession() as session:
         async with session.post(url, headers=Hr, data=data) as response:
@@ -3605,7 +3605,7 @@ async def EncRypTMajoRLoGin(open_id, access_token):
     major_login.platform_sdk_id = 1
     major_login.network_operator_a = "Verizon"
     major_login.network_type_a = "WIFI"
-    major_login.client_using_version = "7428b253defc164018c604a1ebbfebdf"
+    major_login.client_using_version = "05c2d0e8b206b4d7e9b028b842ba2ca2"
     major_login.external_storage_total = 36235
     major_login.external_storage_available = 31335
     major_login.internal_storage_total = 2519
