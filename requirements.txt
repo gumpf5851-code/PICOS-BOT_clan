@@ -4,3 +4,4 @@ psutil
 pytz
 aiohttp
 PyJWT
+protobuf
