@@ -1,1 +1,0 @@
-# PICOS-BOT_clan
