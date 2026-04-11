@@ -1,1 +1,5 @@
-
+requests
+flask
+psutil
+pytz
+aiohttp
