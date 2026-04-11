@@ -8,3 +8,4 @@ protobuf
 protobuf-decoder
 pycryptodome
 pyfiglet
+cfonts
