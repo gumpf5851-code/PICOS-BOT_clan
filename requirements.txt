@@ -3,3 +3,4 @@ flask
 psutil
 pytz
 aiohttp
+PyJWT
