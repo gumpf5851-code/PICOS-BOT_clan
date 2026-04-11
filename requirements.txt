@@ -7,3 +7,4 @@ PyJWT
 protobuf
 protobuf-decoder
 pycryptodome
+pyfiglet
