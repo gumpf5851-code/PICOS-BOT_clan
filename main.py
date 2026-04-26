@@ -6507,7 +6507,7 @@ async def TcPChaT(ip, port, AutHToKen, key, iv, LoGinDaTaUncRypTinG, ready_event
                             await safe_send_message(response.Data.chat_type, footer, uid, chat_id, key, iv)
 
 # IMPROVED TREE-STYLE HELP MENU SYSTEM (Commands in their original menus) 🌳
-                        if inPuTMsG.strip().lower() in ("help", "/help", "menu", "/menu", "commands","/picos"):
+                        if inPuTMsG.strip().lower() in ("help", "/help", "menu", "/menu", "commands","عطاي"):
                             print(f"Help command detected from UID: {uid} in chat type: {response.Data.chat_type}")
 
                             # Header
